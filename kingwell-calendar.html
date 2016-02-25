@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Kingwell Calendar</title>
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/kingwell-calendar.css" />
+<style type="text/css">
+fieldset p{margin:5px; color:#FFF;}
+</style>
+<script type="text/javascript" src="js/kingwell-1.5.js"></script>
+<script type="text/javascript" src="js/kingwell-drag.js"></script>
+<script type="text/javascript" src="js/kingwell-calendar-1.1.js"></script>
+<script type="text/javascript">
+	KW.ready(function () {
+		new Calendar('test1', {
+			language : 'cn',//语言设置 英文-en
+			addClass : 'Calendar-ui'//添加自定义样式
+		});
+		new Time('test2', {
+			top : 10,//距离设置，离目标距离
+			//left : 10,
+			language : 'cn'//语言设置 英文-en
+		});
+	});
+</script>
+</head>
+<body >
+	<fieldset>
+		<legend>Kingwell Calendar & Time Test</legend>
+		<p><label for="test1">选择日期：</label><input type="text" name="" id="test1" readonly="true"/></p>
+		<p><label for="test2">选择时间：</label><input type="text" name="" id="test2" readonly="true"/></p>
+	</fieldset>
+</body>
+</html>

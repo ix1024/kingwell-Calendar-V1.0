@@ -1,0 +1,56 @@
+﻿	body{background-color:#F2F2F2; background:url(images/bg/bg-3.gif) repeat left top; padding:20px}
+	input{width:150px; padding:2px 5px; border:1px solid #DDD; border-radius:3px}
+
+	/*
+		Name: Kingwell Calendar Defualt Style
+		Date: 2013-06-06 
+		E-mail: jinhua.leng#gmail.com 
+	*/
+	/*-- 日历默认样式 --*/
+	.Calendar-box{}
+	.Calendar-default .Calendar-leftBox{left:0;}
+	.Calendar-default .Calendar-rightBox{right:0}
+	.Calendar-default .Calendar-leftBox,.Calendar-default .Calendar-rightBox{position:absolute; top:0}
+	.Calendar-default .Calendar-leftBox span,.Calendar-default .Calendar-rightBox span{cursor:pointer; display:inline-block; *display:inline; *zoom:1;  width:15px; height:20px; line-height:20px; margin:5px 3px 5px 0; text-align:center; vertical-align:middle}
+	.Calendar-default .Calendar-title,.Calendar-default .Calendar-leftBox,.Calendar-default .Calendar-rightBox{height:30px; line-height:30px}
+	
+	.Calendar-default .Calendar-table{width:100%}
+	.Calendar-default .Calendar-table td,.Calendar-default .Calendar-table th{text-align:center; height:20px; line-height:20px}
+	.Calendar-default .Calendar-table th{font-weight:lighter;background-color:#FAFAFA}
+	.Calendar-default .Calendar-table tbody td{cursor:pointer;}
+	.Calendar-default .Calendar-cell:hover{background-color:#555; color:#FFF}
+
+	.Calendar-default .Calendar-now{text-align:center; white-space:nowrap; font-weight:bold}
+	.Calendar-default .Calendar-holiday{color:#F00}
+	.Calendar-default .Calendar-notThisMonth{color:#CCC}
+	.Calendar-default .Calendar-thisMonth{}
+	.Calendar-default .Calendar-today{background-color:orange; color:#FFF}
+	
+	.Calendar-default .Calendar-toolbar{padding:5px; background-color:#FAFAFA; text-align:center}
+
+	/*-- 自定义样式 --*/
+	.Calendar-ui{}
+	.Calendar-ui .Calendar-title{}
+	.Calendar-ui .Calendar-cell{}
+
+	/*-- 时间默认样式 --*/
+	.kwTime-timeBox{}
+	.kwTime-hourBox,.kwTime-minuteBox{height:20px; position:relative; margin:5px; overflow:hidden; position:relative}
+	.kwTime-hourText,.kwTime-minuteText{padding:5px 10px}
+	.kwTime-hourLine,.kwTime-minuteLine{height:10px; margin-top:5px; background-color:#999; overflow:hidden}
+	.kwTime-hourIco,.kwTime-minuteIco{width:10px; height:20px; line-height:20px; background-color:orange; position:absolute; left:0; top:0; cursor:pointer; z-index:10}
+	.kwTime-toolbar{text-align:center; padding:5px 0}
+	.kwTime-timeTitleInfo{font-weight:lighter}
+	
+	/*-- Public --*/
+	.Calendar-box,.kwTime-timeBox{position:absolute; width:200px; background-color:#FFF; border:1px solid #DDD; box-shadow:0px 0px 5px rgba(0,0,0,0.2); color:#666; z-index:100; font-size:12px; font-family:'微软雅黑'}
+	/*-- Time Title --*/.Calendar-default .Calendar-title,.kwTime-timeTitle{height:30px; line-height:30px; font-weight:bold; padding:0 10px; color:#FFF; background-color:#333; background-image:-moz-linear-gradient(top,#666666,#333333) /*-- FF --*/; background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, #333333)); /*-- Saf4+, Chrome --*/ background-image:-ms-linear-gradient(top,#666666,#333333)/*-- IE10 --*/; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#333333', GradientType='0'); /*-- IE6 - IE 9 --*/}
+
+
+	/*-- Button --*/
+	.Calendar-default .Calendar-toolbar span,.kwTime-timeBox .kwTime-toolbar span{text-shadow:1px 1px #FFF; color:#999; box-shadow:0px 1px 0 #FFF inset; vertical-align:middle; display:inline-block; *display:inline; *zoom:1; cursor:pointer; padding:0 5px; margin:0 5px; height:20px; line-height:20px; *line-height:22px; border:1px solid #CCC; background-color:#EEE; background-image:-moz-linear-gradient(top,#FAFAFA,#EEEEEE) /*-- FF --*/; background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #FAFAFA), color-stop(1, #EEEEEE)); /*-- Saf4+, Chrome --*/ background-image:-ms-linear-gradient(top,#FAFAFA,#EEEEEE)/*-- IE10 --*/; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#EEEEEE', GradientType='0'); /*-- IE6 - IE 9 --*/; border-radius:3px; overflow:hidden;}
+	.Calendar-default .Calendar-toolbar span:hover,.kwTime-timeBox .kwTime-toolbar span:hover{color:#333; background-image:-moz-linear-gradient(top,#EEEEEE,#FAFAFA) /*-- FF --*/; background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #EEEEEE), color-stop(1, #FAFAFA)); /*-- Saf4+, Chrome --*/ background-image:-ms-linear-gradient(top,#EEEEEE,#FAFAFA)/*-- IE10 --*/; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FAFAFA', GradientType='0'); /*-- IE6 - IE 9 --*/;}
+	
+	
+	
+	
